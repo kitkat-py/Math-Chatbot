@@ -1,0 +1,296 @@
+[
+    {
+        "tipo_risposta": "saluto",
+        "user_input": ["ciao", "hey", "heylà", "buongiorno", "buondì", "salve", "hei", "ehy", "ehi"],
+        "risposta_bot": "Ciao! Dimmi se hai bisogno di qualcosa :D",
+        "parole_richieste": []
+    },
+    {
+        "tipo_risposta": "saluto",
+        "user_input": ["ci", "vediamo", "a", "presto", "alla", "prossima", "arrivederci"],
+        "risposta_bot": "Spero di esserti stato utile!",
+        "parole_richieste": []
+    },
+    {
+        "tipo_risposta": "unità_misura",
+        "user_input": ["quanto", "equivale", "quante", "chilo", "kg", "t", "corrisponde", "misura", "chilogrammo", "tonnellata", "tonnellate", "chilogrammi"],
+        "risposta_bot": "Una tollellata corrisponde esattamente a 1000kg.",
+        "parole_richieste": ["tonnellata", "chilogrammo", "tonnellate", "chilogrammi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numero", "numeri", "primi", "primo", "cosa"],
+        "risposta_bot": "Un numero primo è un numero naturale maggiore di 1 che ha solo due divisori: 1 e se stesso.",
+        "parole_richieste": ["primo", "primi"]
+    },
+    {
+        "tipo_risposta": "quesito",
+        "user_input": ["come", "quanti", "trovare", "in", "trovo", "trovano", "individuare", "individuo", "individuano", "numeri", "primi", "intervallo", "tra"],
+        "risposta_bot": "Per trovare i numeri primi in un intervallo stabilito, devi tener conto della definizione di numero primo. Se non sai cosa sia un numero primo chiedimi \"Dammi la definizione di numero primo\"",
+        "parole_richieste": ["intervallo", "primi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["parte", "intera", "numero", "reale", "positivo", "cosa"],
+        "risposta_bot": "La parte intera di un numero reale positivo si riferisce al valore dell'intero che si trova immediatamente prima o uguale al numero reale stesso.",
+        "parole_richieste": ["parte", "intera", "reale", "positivo"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["insieme", "numeri", "reali", "numero", "reale"],
+        "risposta_bot": "I numeri reali sono numeri descritti mediante una rappresentazione decimale limitata o illimitata, periodica o non periodica, e sono tutti e i soli numeri razionali e i numeri irrazionali. L'insieme dei numeri reali si indica con una R.",
+        "parole_richieste": ["reali", "reale"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["gerarchia", "operazioni", "ordine", "eseguite", "prima", "più", "meno", "sottrazione", "moltiplicazione", "addizione", "divisione", "parentesi"],
+        "risposta_bot": "Per risolvere un calcolo, seguiamo le regole dela gerarchia dele operazioni, che indicano l'ordine in cui le operazioni devono essere eseguite: parentesi, potenze, moltiplicazioni/divisioni (da sinistra a destra), e infine addizioni/sottrazioni (da sinistra a destra).",
+        "parole_richieste": ["gerarchia", "operazioni", "ordine"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["insieme", "insiemi", "assiocare", "elementi", "relazione", "corrispondenza"],
+        "risposta_bot": "Dati due insiemi A e B, se esiste un criterio che permette di associare elementi di A con elementi di B, si dice che i due insiemi sono legati da una corrispondenza (o relazione). Se vuoi sapere cosa è la corrispondenza univoca o biunivoca, ponimi una domanda a proposito.",
+        "parole_richieste": ["corrispondenza", "associare", "relazione", "insiemi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["corrispondenza", "tra", "due", "inisiemi", "univoca"],
+        "risposta_bot": "Tra due insiemi A e B vi è una corrispondenza univoca (da A a B) quando a OGNI elemento di A corrisponde UNO E UN SOLO elemento di B. Se desideri conoscere la definizione generale di corrispondenza o corrispondenza biunivoca, ponimi una domanda a proposito.",
+        "parole_richieste": ["corrispondeza", "univoca", "insiemi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["corrispondenza", "tra", "due", "insiemi", "biunivoca"],
+        "risposta_bot": "Tra due insiemi A e B vi è una corrispondenza biunivoca quando a OGNI elemento di un insieme corrisponde UNO E UN SOLO elemento dell'altro insieme E VICEVERSA. Se desideri conoscere la definizione generale di corrispondenza o corrispondenza univoca, ponimi una domanda a proposito.",
+        "parole_richieste": ["corrispondenza", "biunivoca", "insiemi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "con", "tra", "insieme", "insiemi", "operazione", "intersezione"],
+        "risposta_bot": "L'insieme intersezione di A e B è l'insieme degli elementi appartenenti contemporaneamente ad A e a B, ossia a entrambi gli insiemi.",
+        "parole_richieste": ["operazioni", "insiemi", "intersezione"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "insieme", "insiemi", "operazione", "unione"],
+        "risposta_bot": "L'insieme unione di A e B è l'insieme degli elementi appartenenti ad A oppure a B, ossia ad almeno uno dei due insiemi.",
+        "parole_richieste": ["operazioni", "insiemi", "unione"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "con", "tra", "insieme", "insiemi", "operazione", "differenza"],
+        "risposta_bot": "L'insieme differenza di A e B (considerati in questo ordine) è l'insieme degli elementi di A NON appartenenti a B.",
+        "parole_richieste": ["operazioni", "insiemi", "differenza"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "con", "tra", "insieme", "insiemi", "operazione", "complementare", "complemento", "negazione", "logica"],
+        "risposta_bot": "L'insieme complementare di A è l'insieme di tutti gli elementi dell'ambiente U NON APPARTENENTI ad A.",
+        "parole_richieste": ["operazioni", "insiemi", "complemento", "complementare", "negazione", "logica"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["prodotto", "cartesiano", "tra", "insiemi"],
+        "risposta_bot": "Il prodotto cartesiano di un insieme A per un insieme B è l'insieme (indicato con A x B) di tutte le coppie ordinate (a, b) in cui 'a' sono gli elementi di A e 'b' sono gli elementi di B. Essendo la coppia (a, b) una coppia ORDINATA, in generale si ha (a, b) DIVERSO da (b, a) e quindi non vale (generalmente) la proprietà commutativa.",
+        "parole_richieste": ["prodotto", "insiemi", "cartesiano"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numeri", "naturali", "numero", "naturale", "insieme", "classi", "numeriche", "classe", "numerica", "comprende", "comprendono"],
+        "risposta_bot": "I numeri naturali costituiscono un insieme infinito, generalmente indicato con il simbolo N. Prendono il loro nome dall'azione naturale del contare. Fanno parte dei numeri naturali i numeri interi NON negativi.",
+        "parole_richieste": ["naturali", "naturale", "classe", "numerica", "classi", "numeriche"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["scomposizione", "in", "fattori", "primi", "come", "scomporre", "numero", "naturale", "scompone", "calcolare"],
+        "risposta_bot": "La scomposizione in fattori primi di un numero naturale maggiore di 1 è la rappresentazione del numero stesso come prodotto dei suoi fattori primi (ossia come prodotto dei suoi divisori che siano anche numeri primi). Per scomporre un numero in fattori primi si utilizza il metodo delle divisioni successive: si procede per tentativi cercando un numero primo (partendo dai valori più piccoli) che sia divisore del numero dato finchè si trova il primo fattore. A questo punto si riapplica il procedimento al quoziente ottenuto e così via fino a quanto si trova come quoziente 1.",
+        "parole_richieste": ["scompone", "fattori", "primi", "scomporre", "scomposizione"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["m", "c", "minimo", "comune", "multiplo", "mcm", "numeri", "interi", "come", "calcolare"],
+        "risposta_bot": "Il minimo comune multiplo (m.c.m.) di due o più interi è il minore fra gli interi multipli di tutti i numeri dati. Il Per determinare il m.c.m. di due o più numeri, li si scompone in fattori primi e si calcola il prodotto dei FATTORI PRIMI COMUNI E NON COMUNI, ciascuno preso una volta sola con il MASSIMO ESPONENTE con cui figura.",
+        "parole_richieste": ["m", "c", "d", "massimo", "comun", "comune", "divisore"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["m", "c", "d", "massimo", "trovare", "mcd", "comune", "comun", "divisore", "numeri", "interi", "come", "calcolare"],
+        "risposta_bot": "Il Massimo Comune Divisore (M.C.D.) di due o più interi è il maggiore fra gli interi che dividono (senza resto) tutti i numeri dati. Il Per determinare il M.C.D. di due o più numeri, li si scompone in fattori primi e si calcola il prodotto dei FATTORI PRIMI COMUNI, ciascuno preso una volta sola con il MINIMO ESPONENTE con cui figura.",
+        "parole_richieste": ["m", "c", "d", "massimo", "comun", "comune", "divisore"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numeri", "interi", "relativi", "numero", "intero", "relativo", "insieme", "classi", "numeriche", "classe", "numerica",  "comprende", "comprendono"],
+        "risposta_bot": "Gli infiniti numeri interi positivi (ossia i numeri naturali), lo zero e gli infiniti numeri interi negativi costituiscono l'insieme dei numeri interi relativi. I numeri relativi costituiscono quindi un insieme infinito, indicato con il simbolo Z.",
+        "parole_richieste": ["interi", "relativi", "intero", "relativo", "classe", "numerica", "classi", "numeriche"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["valore", "assoluto", "modulo", "di", "numero", "relativo", "definizione", "come", "calcolare"],
+        "risposta_bot": "Il valore assoluto (o modulo) di un numero relativo è il numero stesso privato del segno.",
+        "parole_richieste": ["valore", "assoluto", "modulo"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numeri", "concordi", "relativi", "numero", "discordi", "relativo", "opposti", "contrari", "simmetrici", "comprende", "comprendono"],
+        "risposta_bot": "Due numeri relativi aventi lo STESSO VALORE ASSOLUTO E SEGNI CONTRARI si dicono opposti (o anche simmetrici o contrari). Due numeri relativi aventi lo STESSO SEGNO si dicono concordi. Due numeri relativi aventi SEGNO DIVERSO si dicono discordi.",
+        "parole_richieste": ["concordi", "discordi", "opposti"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "addizionano", "sommare", "somma", "numeri", "interi", "relativi", "operazione", "addizione", "come", "si", "fa", "sommano"],
+        "risposta_bot": "Addizione di numeri relativi: se i due numeri sono concordi, si addizionano i valori asoluti e si mantiene lo stesso segno; se i due numeri sono discordi, si calcola la differenza fra i valori assoluti e si tiene il segno del numero con valore assoluto maggiore.",
+        "parole_richieste": ["operazioni", "operazione", "addizione", "relativi", "sommano", "addizionano", "sommare", "somma"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "differenza", "sottraggono", "con", "tra", "numeri", "interi", "sottrarre", "relativi", "operazione", "sottrazione", "come"],
+        "risposta_bot": "Sottrazione fra numeri relativi: la sottrazione è l'operazione inversa dell'addizione, quindi sottrarre un numero equivale ad addizionare il suo opposto. Conviene quindi trasformare la sottrazione in un'addizione e utilizzarne le relative regole.",
+        "parole_richieste": ["operazioni", "operazione", "differenza", "sottrazione", "sottraggono", "relativi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "moltiplicano", "quoziente", "prodotto", "dividono", "con", "tra", "numeri", "interi", "relativi", "moltiplicare", "dividere", "operazione", "divisione", "moltiplicazione", "come"],
+        "risposta_bot": "Moltiplicazione e divisione fra numeri relativi: si esegue la moltiplicazione (o divisione) fra i valori assoluti e si tiene il segno positivo se i due numeri sono concordi, negativo se sono discordi.",
+        "parole_richieste": ["operazioni", "operazione", "moltiplicazione", "quoziente", "prodotto", "divisione", "relativi", "moltiplicano", "dividono", "moltiplicare", "dividere"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numeri", "razionali", "numero", "razionale", "insieme", "frazioni", "frazione", "classi", "numeriche", "classe", "comprende", "comprendono"],
+        "risposta_bot": "Tutte le possibili frazioni (rapporti fra numeri interi relativi) costituiscono l'insieme dei numeri razionali. I numeri razionali costituiscono quindi un insieme infinito, indicato con il simbolo Q.",
+        "parole_richieste": ["razionali", "razionale", "frazioni", "frazione", "classe", "numerica", "classi", "numeriche"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["frazioni", "equivalenti", "frazione", "equivalente", "calcolare", "calcolano", "con", "tra", "numeri", "di", "frazione", "proprietà", "invariantiva", "come"],
+        "risposta_bot": "Moltiplicando e dividendo i due termini di una frazione per uno stesso numero (purché diverso da zero) si ottiene una frazione equivalente alla data.",
+        "parole_richieste": ["proprietà", "invariantiva", "frazioni", "equivalenti", "frazione", "equivalente"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "sommano", "addizionano", "differenza", "sottraggono", "calcolare", "calcolano", "con", "tra", "frazioni", "frazione", "numeri", "razionali", "operazione", "addizione", "sottrazione", "sommano", "sommare", "sottrarre", "come"],
+        "risposta_bot": "Addizione e sottrazione tra frazioni: per addizionare (o sottrarre) fra loro due o più frazioni occorre che esse abbiano lo stesso denominatore. Per ridurre più frazioni al minimo comune denominatore si riducono le frazioni ai minimi termini (se non lo sono già), si cerca il m.c.m. dei denominatori e si trasforma ciascuna frazione nella frazione equivalente che abbia il m.c.m. trovato come denominatore.",
+        "parole_richieste": ["operazioni", "operazione", "addizione", "differenza", "sottrazione", "sommano", "addizionano", "sottraggono", "frazioni", "frazione", "sottrarre", "sommare"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "operazione", "calcolo", "moltiplicano", "calcolare", "prodotto", "calcolano", "con", "tra", "frazioni", "frazione", "numeri", "razionali", "moltiplicazione", "moltiplicare", "come"],
+        "risposta_bot": "Moltiplicazione tra frazioni: il prodotto fra due o più frazioni è la frazione avente per numeratore il prodotto dei numeratori e per denominatore il prodotto dei denominatori.",
+        "parole_richieste": ["operazioni", "operazione", "moltiplicazione", "prodotto",  "frazioni", "frazione", "moltiplicare", "moltiplicano"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "operazione", "calcolo", "dividono", "calcolare", "quoziente", "calcolano", "con", "tra", "frazioni", "frazione", "numeri", "razionali", "divisione", "dividere", "come"],
+        "risposta_bot": "Divisione tra frazioni: per dividere fra loro due frazioni si moltiplica la prima per la reciproca (ossia la frazione ottenuta scambiando fra loro numeratore e denominatore) della seconda.",
+        "parole_richieste": ["operazioni", "operazione", "divisione", "prodotto", "quoziente", "frazioni", "frazione", "dividere", "dividono"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "confrontano", "calcolare", "calcolano", "con", "tra", "frazioni", "frazione", "numeri", "razionali", "confronto", "confrontare", "come"],
+        "risposta_bot": "Confronto tra frazioni: per confrontare fra loro due o più frazioni occorre che esse abbiano lo stesso denominatore. Una volta ridotte le frazioni al minimo comune denominatore, si controntano fra loro i loro numeratori. Se le frazioni da confrontare sono soltanto due (del tipo a/b e c/d) esiste un metodo più rapido: si confrontano i due prodotti ad e bc e si utilizza la regola seguente: la frazione più grande è quella il cui numeratore compare nel prodotto maggiore.",
+        "parole_richieste": ["confronto", "frazioni", "frazione", "confrontare", "confrontano"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numeri", "decimali", "razionali", "razionale", "numero", "decimale", "insieme", "classi", "numeriche", "classe", "numerica", "comprende", "comprendono", "frazioni"],
+        "risposta_bot": "Ogni numero razionale (ossia ogni frazione) può anche essere rappresentato in forma di numero decimale: è sufficiente dividere il numeratore per il denominatore utilizzando la nota regola di divisione fra interi. Trattandosi di una divisione tra interi, possono presentarsi due casi di cui, se richiesto, ti posso parlare: un numero decimale limitato o un numero decimale illimitato (che può essere un numero decimale illimitato periodico).",
+        "parole_richieste": ["decimali", "decimale", "frazione", "classe", "numerica", "classi", "numeriche"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numeri", "decimali", "razionali", "razionale", "numero", "decimale", "limitato", "divisione", "illimitato", "illimitati", "periodico", "periodici", "limitati", "comprende", "comprendono", "frazione", "frazioni"],
+        "risposta_bot": "Un numero decimale può essere limitato o illimitato. Quando, svolgendo una divisione tra interi, il quoziente risulta formato da una parte intera (eventualmente nulla) seguito dalla virgola e da un numero finito di cifre (eventualmente nessuna), in quel caso si avrà un numero decimale limitato. Nel caso invece in cui, proseguendo lìoperazione, non si trova mai un resto nullo, si è ottenuto un numero decimale illimitato. Nel caso specifico in cui nel resto si ripresenti all'infinito una sequenza di numeri già ottenuta in precedenza, si tratta di un numero decimale periodico. Il gruppo di cifre decimali che si ripetono nel quoziente viene detto periodo.",
+        "parole_richieste": ["decimali", "decimale", "frazione", "limitato", "limitati", "illimitato", "illimitati", "periodico", "periodici"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numeri", "decimali", "numero", "decimale", "generatrice", "generatrici", "limitato", "corrispondente", "divisione", "illimitato", "illimitati", "periodico", "periodici", "limitati", "trasforma", "come", "comprende", "frazione", "comprendono", "frazioni", "forma", "formare", "trasformare", "da", "in"],
+        "risposta_bot": "Dato un numero decimale è posibile trovare la frazione corrispondente, che prende il nome di frazione generatrice. Se il numero decimale è limitato, si forma la frazione moltiplicando e dividendo il numero decimale per il numero costituito dalla cifra 1 seguita da tanti zeri quante sono le cifre dei decimali del numero dato: la frazione ottenuta potrà poi essere ridotta ai minimi termini. Se invece il numero decimale è illimitato periodico, si forma la frazione avente per numeratore la differenza fra il numero costituito dalla parte intera seguita dall'antiperiodo e dal periodo preso una sola volta e il numero composto dalla parte intera e dall'eventuale antiperiodo e, per denominatore, un numero composto da tanti 9 quante sono le cifre del periodo seguito da tanti 0 quanti sono quelli dell'eventuale antiperiodo.",
+        "parole_richieste": ["decimali", "decimale", "frazione", "corrispondente", "generatrice", "limitato", "limitati", "illimitato", "illimitati", "periodico", "periodici", "trasforma", "trasformare", "forma", "formare"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["numero", "numeri", "razionali", "razionale", "potenza", "potenze", "cosa", "esponente", "base"],
+        "risposta_bot": "La potenza di un numero razionale a, detto 'base', con esponente intero n è il prodotto di n fattori tutti uguali ad a.",
+        "parole_richieste": ["potenza", "potenze", "esponente", "base"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["potenza", "potenze", "base", "valore", "positivo", "negativo", "positiva", "negativa"],
+        "risposta_bot": "Poichè la potenza di un numero è sempre riconducibile ad una moltiplicazione, è possibile stabilire che: se la base è positiva, il valore della potenza è sempre positivo; se la base è negativa, il valore della potenza è positivo se l'esponente è pari, negativo se l'esponente è dispari.",
+        "parole_richieste": ["potenza", "potenze", "base", "valore"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["proprietà", "valore", "di", "potenze", "potenza", "uno", "esponente", "unitario"],
+        "risposta_bot": "Il valore di una potenza con esponente unitario è sempre uguale alla base.",
+        "parole_richieste": ["potenza", "potenze", "esponente", "unitario"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["proprietà", "valore", "di", "potenze", "potenza", "zero", "base", "nulla"],
+        "risposta_bot": "Il valore di una potenza con base nulla è sempre nullo qualunque sia l'esponente.",
+        "parole_richieste": ["potenza", "potenze", "base", "nulla"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["proprietà", "valore", "di", "potenze", "potenza", "uno", "qual", "esponente", "unitario"],
+        "risposta_bot": "Il valore di una potenza con esponente unitario è sempre uguale alla base.",
+        "parole_richieste": ["potenza", "potenze", "esponente", "unitario"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["proprietà", "valore", "di", "potenze", "potenza", "zero", "qual", "esponente", "nullo"],
+        "risposta_bot": "La potenza con esponente nullo di una base qualsiasi (purché diversa da zero) è sempre uguale all'unità.",
+        "parole_richieste": ["potenza", "potenze", "esponente", "nullo"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "operazione", "calcolo", "moltiplicano", "calcolare", "prodotto", "calcolano", "con", "tra", "potenze", "potenza", "moltiplicazione", "moltiplicare", "come"],
+        "risposta_bot": "Il prodotto di due o più potenze aventi la stessa base è una potenza avente per base la stessa base e per esponente la somma degli esponenti.",
+        "parole_richieste": ["operazioni", "operazione", "moltiplicazione", "prodotto",  "potenza", "potenze", "moltiplicare", "moltiplicano"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "operazione", "più", "proprietà", "distributiva", "distributive", "fattori", "fattore", "calcolo", "moltiplicano", "calcolare", "prodotto", "calcolano", "con", "tra", "potenze", "potenza", "moltiplicazione", "moltiplicare", "come"],
+        "risposta_bot": "La potenza del prodotto di piì fattori è uguale al prodotto delle potenze di ciascun fattore.",
+        "parole_richieste": ["moltiplicazione", "prodotto",  "potenza", "potenze", "moltiplicare", "moltiplicano", "proprietà", "distributiva", "distributive"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "operazione", "calcolo", "dividono", "calcolare", "quoziente", "calcolano", "con", "tra", "potenze", "potenza", "divisione", "dividere", "come"],
+        "risposta_bot": "Il quoziente di due potenze aventi la stessa base è una potenza avente per base la stessa base e per esponente la differenza degli esponenti.",
+        "parole_richieste": ["operazioni", "operazione", "divisione", "quoziente",  "potenza", "potenze", "dividere", "dividono"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "operazione", "più", "proprietà", "distributiva", "distributive", "fattori", "fattore", "calcolo", "dividono", "calcolare", "quoziente", "calcolano", "con", "tra", "potenze", "potenza", "divisione", "dividere", "come"],
+        "risposta_bot": "La potenza di un quoziente di due numeri è uguale al quoziente delle potenze di ciascuno dei due numeri dati.",
+        "parole_richieste": ["divisione", "quoziente",  "potenza", "potenze", "dividere", "dividono", "proprietà", "distributiva", "distributive"]
+    },
+    {
+        "tipo_risposta": "info",
+        "user_input": ["cosa", "puoi", "sai", "fare", "fai"],
+        "risposta_bot": "Posso assisterti in ambito matematico. Chiedimi quello di cui hai bisogno.",
+        "parole_richieste": ["fare", "sai", "fai"]
+    },
+    {
+        "tipo_risposta": "conversazione",
+        "user_input": ["come", "stai", "ti", "senti", "va"],
+        "risposta_bot": "Sto bene, grazie per averlo chiesto. Come posso esserti di aiuto oggi?",
+        "parole_richieste": ["stai", "senti", "va"]
+    },
+    {
+        "tipo_risposta": "conversazione",
+        "user_input": ["grazie", "ti", "ringrazio"],
+        "risposta_bot": "Sono contento di averti aiutato! Fammi sapere se posso assisterti in qualche altro modo.",
+        "parole_richieste": ["grazie", "ringrazio"]
+    },
+    {
+        "tipo_risposta": "aiuto",
+        "user_input": ["ho", "bisogno", "mi", "serve", "darmi", "dammi", "una", "mano", "aiuto", "aiutarmi", "puoi", "potresti"],
+        "risposta_bot": "Sono a tua completa disposizione per aiutarti! Chiedimi quello di cui hai bisogno.",
+        "parole_richieste": ["aiutarmi", "aiuto"]
+    }
+]

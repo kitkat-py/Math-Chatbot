@@ -1,0 +1,212 @@
+[
+    {
+        "tipo_risposta": "saluto",
+        "user_input": ["ciao", "hey", "heylà", "buongiorno", "buondì", "salve", "hei", "ehy", "ehi"],
+        "risposta_bot": "Ciao! Dimmi se hai bisogno di qualcosa :D",
+        "parole_richieste": []
+    },
+    {
+        "tipo_risposta": "saluto",
+        "user_input": ["ci", "vediamo", "a", "presto", "alla", "prossima", "arrivederci"],
+        "risposta_bot": "Spero di esserti stato utile!",
+        "parole_richieste": []
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["monomio", "monomi", "cosa"],
+        "risposta_bot": "Si dice monomio qualunque espressione algebrica numerica o letterale in cui NON figurano addizioni o sottrazioni.",
+        "parole_richieste": ["monomio", "monomi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["polinomio", "polinomi", "cosa"],
+        "risposta_bot": "La somma algebrica di più monomi (non tutti simili fra loro) si chiama polinomio. I singoli monomi prendono il nome di termini del polinomio.",
+        "parole_richieste": ["polinomio", "polinomi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["monomio", "monomi", "grado", "gradi", "complessivo", "cosa"],
+        "risposta_bot": "Il grado complessivo è la somma degli esponenti delle lettere del monomio.",
+        "parole_richieste": ["monomio", "monomi", "grado", "gradi", "complessivo"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["polinomio", "polinomi", "grado", "gradi", "complessivo", "omogeneo", "cosa"],
+        "risposta_bot": "Il grado di un polinomio è il massimo fra i gradi dei suoi termini. Un polinomio omogeneo è un polinomio costituito da termini aventi lo stesso grado.",
+        "parole_richieste": ["polinomio", "polinomi", "grado", "gradi", "complessivo", "omogeneo"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["monomio", "monomi", "simile", "simili", "cosa"],
+        "risposta_bot": "Due o più monomi sono simili se hanno la stessa parte letterale.",
+        "parole_richieste": ["monomio", "monomi", "simile", "simili"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "addizionano", "simile", "simili", "sommare", "somma", "algebrica", "monomio", "monomi", "operazione", "addizione", "come", "si", "fa", "sommano"],
+        "risposta_bot": "La somma algebrica di due o più monomi simili è un monomio simile agli addendi e avente per coefficiente la somma algebrica dei coeficienti.",
+        "parole_richieste": ["operazioni", "operazione", "addizione", "monomio", "monomi", "sommano", "addizionano", "sommare", "somma", "algebrica"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "addizionano", "simile", "simili", "sommare", "somma", "algebrica", "polinomio", "polinomi", "operazione", "addizione", "come", "si", "fa", "sommano", "riduzione", "simili", "termini"],
+        "risposta_bot": "La somma algebrica di due o più polinomi è un polinomio avente per termini tutti quelli dei polinomi addendi. Dopo aver scritto la somma di più polinomi si deve operare la riduzione dei termini simili, ossia effettuare la somma algebrica degli eventuali monomi simili.",
+        "parole_richieste": ["operazioni", "operazione", "addizione", "polinomio", "polinomi", "sommano", "addizionano", "sommare", "somma", "algebrica"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "moltiplicano", "moltiplicare", "prodotto", "monomio", "monomi", "operazione", "molriplicazione", "come", "si", "fa"],
+        "risposta_bot": "Il prodotto di due o più monomi è un monomio avente per coefficiente il prodotto dei coefficienti e per parte letterale il prodotto delle parti letterali.",
+        "parole_richieste": ["operazioni", "operazione", "moltiplicazione", "monomio", "monomi", "moltiplicano", "moltiplicare", "prodotto"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "moltiplicano", "moltiplicare", "prodotto", "polinomio", "polinomi", "operazione", "molriplicazione", "come", "si", "fa"],
+        "risposta_bot": "Il prodotto fra due polinomi è uguale al polinomio i cui termini si ottengono moltiplicando ciascun termine del primo polinomio per tutti i termini del secondo.",
+        "parole_richieste": ["operazioni", "operazione", "moltiplicazione", "polinomio", "polinomi", "moltiplicano", "moltiplicare", "prodotto"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "monomio", "monomi", "calcolare", "calcolano", "con", "tra", "moltiplicano", "moltiplicare", "prodotto", "polinomio", "polinomi", "operazione", "molriplicazione", "come", "si", "fa"],
+        "risposta_bot": "Il prodotto di un polinomio per un monomio è un polinomio i cui termini si ottengono moltiplicando ciascun termine del polinomio per il monomio.",
+        "parole_richieste": ["operazioni", "operazione", "moltiplicazione", "monomio", "monomi", "polinomio", "polinomi", "moltiplicano", "moltiplicare", "prodotto"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "elevano", "elevare", "elevazione", "potenza", "monomio", "monomi", "operazione", "n-esima", "come", "si", "fa"],
+        "risposta_bot": "Per elevare alla potenza n-esima un monomio si eleva alla potenza n-esima sia il coefficiente che ciascun fattore della parte letterale.",
+        "parole_richieste": ["operazioni", "operazione", "elevazione", "monomio", "monomi", "elevano", "elevare", "potenza"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "elevano", "elevare", "elevazione", "potenza", "binomio", "binomi", "operazione", "n-esima", "triangolo", "tartaglia", "come", "si", "fa"],
+        "risposta_bot": "Il triangolo di Tartaglia fornisce i coefficienti dello sviluppo della potenza n-esima di un binomio. Per la costruzione si ha che: al vertice compare il numero 1; ogni riga inizia e termina con il numero 1; ogni altro numero si ottiene sommando i due numeri soprastanti della riga precedente.",
+        "parole_richieste": ["operazioni", "operazione", "elevazione", "binomio", "binomi", "elevano", "elevare", "potenza"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "dividono", "dividere", "quoziente", "monomio", "monomi", "operazione", "divisione", "come", "si", "fa"],
+        "risposta_bot": "Un monomio si dice divisibile per un altro monomio (purché diverso da zero) se esiste un terzo monomio che moltiplicato per il secondo dia come risultato il primo.",
+        "parole_richieste": ["operazioni", "operazione", "divisione", "monomio", "monomi", "divisono", "dividere", "quoziente"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "calcolare", "calcolano", "con", "tra", "dividono", "dividere", "quoziente", "polinomio", "polinomi", "operazione", "divisione", "come", "si", "fa"],
+        "risposta_bot": "Un polinomio si dice divisibile per un altro polinomio se esiste un terzo polinomio che moltiplicato per il secondo dia come risultato il primo.",
+        "parole_richieste": ["operazioni", "operazione", "divisione", "polinomio", "polinomi", "divisono", "dividere", "quoziente"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "polinomio", "polinomi", "calcolare", "calcolano", "con", "tra", "dividono", "dividere", "quoziente", "monomio", "monomi", "operazione", "divisione", "come", "si", "fa"],
+        "risposta_bot": "Quando un polinomio è divisibile per un monomio, il quoziente (per la proprietà distributiva del quoziente rispetto alla somma) è uguale al polinomio i cui termini si ottengono dividendo ciascun termine del polinomio per il monomio.",
+        "parole_richieste": ["operazioni", "operazione", "divisione", "monomio", "monomi", "divisono", "dividere", "polinomi", "polinomio", "quoziente"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "grado", "calcolare", "calcolano", "con", "tra", "dividono", "dividere", "quoziente", "monomio", "monomi", "operazione", "divisione", "come", "si", "fa"],
+        "risposta_bot": "Il grado del monomio quoziente è uguale alla differenza dei gradi dei monomi dividendo e divisore.",
+        "parole_richieste": ["operazioni", "operazione", "grado", "divisione", "monomio", "monomi", "divisono", "dividere", "quoziente"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["operazioni", "calcolo", "coefficiente", "coefficienti", "calcolare", "calcolano", "con", "tra", "dividono", "dividere", "quoziente", "monomio", "parte", "letterale", "monomi", "operazione", "divisione", "come", "si", "fa"],
+        "risposta_bot": "Il coefficiente del monomio quoziente è uguale al quoziente dei coefficienti del dividendo e del divisore; la parte letterale è uguale al quoziente delle parti letterali.",
+        "parole_richieste": ["operazioni", "operazione", "divisione", "coefficiente", "monomio", "monomi", "divisono", "dividere", "quoziente", "letterale", "parte"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["m", "c", "d", "massimo", "trovare", "mcd", "comune", "comun", "divisore", "monomio", "monomi", "come", "calcolare"],
+        "risposta_bot": "Il Massimo Comun Divisore (M.C.D.) di più monomi è quel monomio che ha come coefficiente il M.C.D. dei coefficienti e come parte letterale il prodotto delle LETTERE COMUNI ai monomi dati, ciascuna di esse presa una volta sola con il MINIMO ESPONENTE con cui compare.",
+        "parole_richieste": ["m", "c", "d", "massimo", "comun", "comune", "divisore", "monomi", "monomio"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["m", "c", "minimo", "comune", "multiplo", "mcm", "monomi", "monomio", "come", "calcolare"],
+        "risposta_bot": "Il minimo comune multiplo (m.c.m.) di due o più monomi è quel monomio che ha come coefficiente il m.c.m. dei coefficienti e come parte letterale il prodotto delle LETTERE COMUNI E NON COMUNI ai monomi dati, ciadcuna di esse presa una volta sola con il MASSIMO ESPONENTE con cui compare.",
+        "parole_richieste": ["m", "c", "d", "massimo", "comun", "comune", "divisore", "monomio", "monomi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["m", "c", "d", "massimo", "trovare", "mcd", "comune", "comun", "divisore", "polinomio", "polinomi", "come", "calcolare"],
+        "risposta_bot": "Il Massimo Comun Divisore (M.C.D.) di più polinomi, scomposti in fattori irriducibili (ossia non ulteriormente scomponibili in fattori) è il polinomio prodotto dei FATTORI COMUNI ai polinomi dati, ciascuno di essi preso una volta sola con il MINIMO ESPONENTE.",
+        "parole_richieste": ["m", "c", "d", "massimo", "comun", "comune", "divisore", "polinomi", "polinomio"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["m", "c", "minimo", "comune", "multiplo", "mcm", "polinomi", "polinomio", "come", "calcolare"],
+        "risposta_bot": "Il minimo comune multiplo (m.c.m.) di due o più polinomi, scomposti in fattori irriducibili (ossia non ulteriormente scomponibili in fattori) è il polinomio prodotto dei FATTORI COMUNI E NON COMUNI ai polinomi dati, ciascuno di essi preso una volta sola con il MASSIMO ESPONENTE.",
+        "parole_richieste": ["m", "c", "d", "massimo", "comun", "comune", "divisore", "polinomio", "polinomi"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["monomio", "monomi", "come", "calcolare", "prodotto", "prodotti", "notevole", "notevoli", "somma", "per", "differenza"],
+        "risposta_bot": "Il prodotto della somma per differenza di due monomi è uguale al quadrato del primo monomio meno il quadrato del secondo monomio.",
+        "parole_richieste": ["monomio", "monomi", "somma", "differenza", "prodotto"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["binomio", "binomi", "come", "calcolare", "prodotto", "prodotti", "monomio", "monomi", "notevole", "notevoli", "quadrato"],
+        "risposta_bot": "Il quadrato di un binomio è uguale al quadrato del primo monomio, più il doppio prodotto del primo monomio per il secondo, più il quadrato del secondo monomio.",
+        "parole_richieste": ["binomio", "bionomi", "quadrato"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["binomio", "binomi", "come", "calcolare", "prodotto", "prodotti", "monomio", "monomi", "notevole", "notevoli", "cubo"],
+        "risposta_bot": "Il cubo di un binomio è uguale al cubo del primo monomio, più il triplo prodotto del quadrato del primo monomio per il secondo, più il triplo prodotto del primo per il quadrato del secondo, più il cubo del secondo monomio.",
+        "parole_richieste": ["binomio", "bionomi", "cubo"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["polinomio", "polinomi", "come", "calcolare", "raccoglimento", "fattore", "comune", "prodotto", "prodotti", "notevole", "notevoli", "scompsizione", "scomporre", "scompone", "scompongono"],
+        "risposta_bot": "Raccoglimento a fattore comune: consiste nel mettere in evidenza un fattore comune a tutti i termini (ossia i monomi) del polinomio da scomporre. Per eseguire il raccoglimento a fattore comune si calcola il M.C.D. dei monomi del polinomio e si pone il polinomio uguale al prodotto di due fattori di cui il primo è il M.C.D. stesso e il secondo è il quoziente tra il monomio e il M.C.D.",
+        "parole_richieste": ["polinomio", "polinomi", "raccoglimento", "scompsizione", "scomporre", "scompone", "scompongono"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["polinomio", "polinomi", "principio", "identità", "cosa", "identici", "uguali"],
+        "risposta_bot": "Due polinomi si dicono identici quando tutti i monomi di uno di essi sono identici ai rispettivi monomi dell'altro. In altre parole, un polinomio può essere uguale solo a se stesso.",
+        "parole_richieste": ["polinomio", "polinomi", "principio", "identità", "identici"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["polinomio", "polinomi", "cosa", "teorema", "ruffini"],
+        "risposta_bot": "Teorema di Ruffini: Condizione necessaria e sufficiente affinché un polinomio intero in x sia divisibile per il binomio (x + a) è che il polinomio si annulli quando ad x si sostituisca -a. Questo teorema permette di applicare la regola di Ruffini per calcolare il quoziente (e l'eventuale resto) della divisione tra polinomi.",
+        "parole_richieste": ["polinomio", "polinomi", "teorema", "ruffini"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["polinomio", "polinomi", "cosa", "regola", "ruffini"],
+        "risposta_bot": "I passaggi della regola di Ruffini: 1. Crea la tabella di Ruffini, Disegna una linea orizzontale per i coefficienti e una linea verticale per separare il valore di a (guarda 'teorema di Ruffini') dai coefficienti; 2. Abbassa il primo coefficiente senza modificarlo; 3. Moltiplica il valore di a per il numero appena scritto sotto la linea e scrivi il risultato sotto il coefficiente successivo. Somma questo risultato con il coefficiente successivo e scrivi la somma sotto la linea; 4. I numeri sotto la linea (tranne l'ultimo) sono i coefficienti del quoziente, l'ultimo numero è il resto.",
+        "parole_richieste": ["polinomio", "polinomi", "regola", "ruffini"]
+    },
+    {
+        "tipo_risposta": "definizione",
+        "user_input": ["polinomio", "polinomi", "cosa", "criterio", "criteri", "divisibilità"],
+        "risposta_bot": "Grazie alla regola di Ruffini è possibile enunciare alcuni criteri di divisibilità: 1. La differenza di due potenze di ugual grado è sempre divisibile per la differenza delle basi; 2. La differenza di due potenze di ugual grado è divisibile per la somma delle basi solo quando l'esponente è pari; 3. La somma di due potenze di ugual grado non è mai divisibile per la differenza delle basi; 4. La somma di due potenze di ugual grado è divisibile per la somma delle basi solo quando l'esponente è dispari.",
+        "parole_richieste": ["polinomio", "polinomi", "teorema", "ruffini", "criterio", "criteri", "divisibilità"]
+    },
+    {
+        "tipo_risposta": "info",
+        "user_input": ["cosa", "puoi", "sai", "fare", "fai"],
+        "risposta_bot": "Posso assisterti in ambito matematico. Chiedimi quello di cui hai bisogno.",
+        "parole_richieste": ["fare", "sai", "fai"]
+    },
+    {
+        "tipo_risposta": "conversazione",
+        "user_input": ["come", "stai", "ti", "senti", "va"],
+        "risposta_bot": "Sto bene, grazie per averlo chiesto. Come posso esserti di aiuto oggi?",
+        "parole_richieste": ["stai", "senti", "va"]
+    },
+    {
+        "tipo_risposta": "conversazione",
+        "user_input": ["grazie", "ti", "ringrazio"],
+        "risposta_bot": "Sono contento di averti aiutato! Fammi sapere se posso assisterti in qualche altro modo.",
+        "parole_richieste": ["grazie", "ringrazio"]
+    },
+    {
+        "tipo_risposta": "aiuto",
+        "user_input": ["ho", "bisogno", "mi", "serve", "darmi", "dammi", "una", "mano", "aiuto", "aiutarmi", "puoi", "potresti"],
+        "risposta_bot": "Sono a tua completa disposizione per aiutarti! Chiedimi quello di cui hai bisogno.",
+        "parole_richieste": ["aiutarmi", "aiuto"]
+    }
+]
